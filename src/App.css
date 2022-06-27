@@ -91,8 +91,9 @@ header {
   background-color: #fff;
   border-radius: 0.5rem;
   display: none;
+  /* default olaraq burada nonedır */
 }
-
+/* show elave etmeliyik */
 .dropdown.show {
   display: block;
 }

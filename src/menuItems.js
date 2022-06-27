@@ -1,46 +1,83 @@
 export const menuItems = [
   {
     title: "Home",
-  },
-  {
-    title: "Services",
     submenu: [
       {
-        title: "web design",
+        title: "Homepage 1",
       },
+  
       {
-        title: "web development",
-        submenu: [
-          {
-            title: "Frontend",
-          },
-          {
-            title: "Backend",
-            submenu: [
-              {
-                title: "NodeJS",
-              },
-              {
-                title: "PHP",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        title: "SEO",
+        title: "Homepage2",
       },
     ],
   },
   {
-    title: "About",
+    title: "Courses",
     submenu: [
       {
-        title: "Who we are",
+        title: "Courses grids",
+      },
+  
+      {
+        title: "Courses list",
       },
       {
-        title: "Our values",
+        title: "Single course",
+      }
+    ],
+  },
+  {
+    title: "Events",
+    submenu: [
+      {
+        title: "Classic events",
+      },
+      {
+        title: "Calendar events",
+      },
+      {
+        title: "Single event",
       },
     ],
   },
+
+  {
+    title: "Pages",
+    submenu: [
+      {
+        title: "About us",
+      },
+      {
+        title: "Our teachers",
+      },
+      {
+        title: "Single teacher",
+      },
+      {
+        title: "Gallery 4 columns",
+      },
+      {
+        title: "Gallery 3 columns",
+      },
+    ],
+  },
+
+  {
+    title: "News",
+    submenu: [
+      {
+        title: "Classic news",
+      },
+      {
+        title: "Grid news",
+      },
+      {
+        title: "Single post",
+      },
+      
+    ],
+  },
+  {
+    title:'Contact'
+  }
 ];
